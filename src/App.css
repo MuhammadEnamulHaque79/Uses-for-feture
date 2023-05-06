@@ -1,0 +1,53 @@
+.container{
+    border: 1px solid salmon;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+    
+
+.left-div{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    background-color:cyan;
+}
+
+/*This field is mandatory*/
+
+.left-div img{
+    width: 100%;
+}
+
+.right-div{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 50%;
+    text-align: start;
+    background-color: coral;
+}
+
+@media only screen and (max-width:576px) {
+    .container,
+    .left-div,
+    .right-div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .left-div,
+    .right-div{
+        text-align: center;
+        color: green;
+        font-family: monospace;
+        font-style: italic;
+    
+    }
+}
