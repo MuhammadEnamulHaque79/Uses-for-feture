@@ -33,6 +33,10 @@
     text-align: start;
     background-color: coral;
 }
+/*This field is mandatory*/
+.right-div h1{
+    width: 100%;
+}
 
 @media only screen and (max-width:576px) {
     .container,
@@ -48,6 +52,7 @@
         color: green;
         font-family: monospace;
         font-style: italic;
+        
     
     }
 }
